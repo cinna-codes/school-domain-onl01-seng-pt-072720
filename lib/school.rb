@@ -19,7 +19,9 @@ attr_accessor :school, :roster
   end
 
   def sort
-
+    @roster.each do |grades, students|
+      ss
+    end
   end
 
 end
