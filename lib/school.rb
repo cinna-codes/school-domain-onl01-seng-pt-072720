@@ -19,8 +19,9 @@ attr_accessor :school, :roster
   end
 
   def sort
+    sorted = {}
     @roster.each do |grades, students|
-      ss
+      sorted[grades] = students.sort
     end
   end
 
