@@ -10,10 +10,9 @@ ROSTER = {}
     @school = school_name
   end
 
-def add_student(grade, student_name)
+  def add_student(grade, student_name)
     @roster[grade] = []
     @roster[grade] << student_name
-end
   end
 
 end
