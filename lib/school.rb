@@ -18,4 +18,8 @@ attr_accessor :school, :roster
     @roster[num]
   end
 
+  def sort
+
+  end
+
 end
